@@ -73,7 +73,7 @@
           <div class="col-5 col-lg-3 col-xl-3">
             <div class="header-middle-logo">
               <a class="navbar-brand" href="index.html">
-                <img src="assets/img/logo/logo.png" alt="logo">
+                <img src="{{ asset('') }}assets/img/logo/logo.png" alt="logo">
               </a>
             </div>
           </div>
@@ -145,7 +145,7 @@
                       <li>
                         <div class="dropdown-cart-item">
                           <div class="cart-img">
-                            <a href="#"><img src="assets/img/product/01.png" alt="#"></a>
+                            <a href="#"><img src="{{ asset('') }}assets/img/product/01.png" alt="#"></a>
                           </div>
                           <div class="cart-info">
                             <h4><a href="#">Surgical Face Mask</a></h4>
@@ -158,7 +158,7 @@
                       <li>
                         <div class="dropdown-cart-item">
                           <div class="cart-img">
-                            <a href="#"><img src="assets/img/product/02.png" alt="#"></a>
+                            <a href="#"><img src="{{ asset('') }}assets/img/product/02.png" alt="#"></a>
                           </div>
                           <div class="cart-info">
                             <h4><a href="#">Surgical Face Mask</a></h4>
@@ -171,7 +171,7 @@
                       <li>
                         <div class="dropdown-cart-item">
                           <div class="cart-img">
-                            <a href="#"><img src="assets/img/product/03.png" alt="#"></a>
+                            <a href="#"><img src="{{ asset('') }}assets/img/product/03.png" alt="#"></a>
                           </div>
                           <div class="cart-info">
                             <h4><a href="#">Surgical Face Mask</a></h4>
@@ -205,7 +205,7 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container position-relative">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/img/logo/logo.png" class="logo-scrolled" alt="logo">
+            <img src="{{ asset('') }}assets/img/logo/logo.png" class="logo-scrolled" alt="logo">
           </a>
           <div class="category-all">
             <button class="category-btn" type="button">
@@ -214,7 +214,7 @@
             <ul class="main-category">
               <li>
                 <a href="#">
-                  <img src="assets/img/icon/medicine.svg" alt="">
+                  <img src="{{ asset('') }}assets/img/icon/medicine.svg" alt="">
                   <span>Medicine</span><i class="far fa-angle-right"></i>
                 </a>
                 <div class="sub-category-mega">
@@ -263,33 +263,33 @@
                     </div>
                     <div class="col-lg-3">
                       <div class="category-img">
-                        <a href="#"><img src="assets/img/banner/category-banner.jpg" alt=""></a>
+                        <a href="#"><img src="{{ asset('') }}assets/img/banner/category-banner.jpg" alt=""></a>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
-              <li><a href="#"><img src="assets/img/icon/health-care.svg"
+              <li><a href="#"><img src="{{ asset('') }}assets/img/icon/health-care.svg"
                     alt=""><span>Healthcare</span></a></li>
-              <li><a href="#"><img src="assets/img/icon/beauty-care.svg" alt=""><span>Beauty
+              <li><a href="#"><img src="{{ asset('') }}assets/img/icon/beauty-care.svg" alt=""><span>Beauty
                     Care</span></a></li>
-              <li><a href="#"><img src="assets/img/icon/sexual.svg" alt=""><span>Sexual
+              <li><a href="#"><img src="{{ asset('') }}assets/img/icon/sexual.svg" alt=""><span>Sexual
                     Wellness</span></a></li>
-              <li><a href="#"><img src="assets/img/icon/fitness.svg" alt=""><span>Fitness</span></a>
+              <li><a href="#"><img src="{{ asset('') }}assets/img/icon/fitness.svg" alt=""><span>Fitness</span></a>
               </li>
-              <li><a href="#"><img src="assets/img/icon/lab-test.svg" alt=""><span>Lab Test</span></a>
+              <li><a href="#"><img src="{{ asset('') }}assets/img/icon/lab-test.svg" alt=""><span>Lab Test</span></a>
               </li>
-              <li><a href="#"><img src="assets/img/icon/baby-mom-care.svg" alt=""><span>Baby & Mom
+              <li><a href="#"><img src="{{ asset('') }}assets/img/icon/baby-mom-care.svg" alt=""><span>Baby & Mom
                     Care</span></a></li>
-              <li><a href="#"><img src="assets/img/icon/supplements.svg" alt=""><span>Vitamins &
+              <li><a href="#"><img src="{{ asset('') }}assets/img/icon/supplements.svg" alt=""><span>Vitamins &
                     Supplement</span></a></li>
-              <li><a href="#"><img src="assets/img/icon/food-nutrition.svg" alt=""><span>Food &
+              <li><a href="#"><img src="{{ asset('') }}assets/img/icon/food-nutrition.svg" alt=""><span>Food &
                     Nutrition</span></a></li>
-              <li><a href="#"><img src="assets/img/icon/medical-equipements.svg" alt=""><span>Medical
+              <li><a href="#"><img src="{{ asset('') }}assets/img/icon/medical-equipements.svg" alt=""><span>Medical
                     Equipments</span></a></li>
-              <li><a href="#"><img src="assets/img/icon/medical-supplies.svg" alt=""><span>Medical
+              <li><a href="#"><img src="{{ asset('') }}assets/img/icon/medical-supplies.svg" alt=""><span>Medical
                     Supplies</span></a></li>
-              <li><a href="#"><img src="assets/img/icon/pet-care.svg" alt=""><span>Pet Care</span></a>
+              <li><a href="#"><img src="{{ asset('') }}assets/img/icon/pet-care.svg" alt=""><span>Pet Care</span></a>
               </li>
             </ul>
           </div>
@@ -310,7 +310,7 @@
             aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <a href="index.html" class="offcanvas-brand" id="offcanvasNavbarLabel">
-                <img src="assets/img/logo/logo.png" alt="">
+                <img src="{{ asset('') }}assets/img/logo/logo.png" alt="">
               </a>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -473,7 +473,7 @@
                           </div>
                           <div class="col-12 col-lg-4">
                             <div class="mega-menu-img">
-                              <a href="#"><img src="assets/img/banner/mega-menu-banner.jpg" alt=""></a>
+                              <a href="#"><img src="{{ asset('') }}assets/img/banner/mega-menu-banner.jpg" alt=""></a>
                             </div>
                           </div>
                         </div>

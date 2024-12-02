@@ -9,7 +9,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <div class="quickview-img">
-              <img src="assets/img/product/04.png" alt="#">
+              <img src="{{ asset('') }}assets/img/product/04.png" alt="#">
             </div>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -63,7 +63,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="popup-banner-img">
-                  <img src="assets/img/banner/popup-banner.jpg" alt="">
+                  <img src="{{ asset('') }}assets/img/banner/popup-banner.jpg" alt="">
                 </div>
               </div>
               <div class="col-lg-6 align-self-center">

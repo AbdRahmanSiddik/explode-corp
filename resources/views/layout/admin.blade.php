@@ -13,17 +13,17 @@
   <title>{{ $title }}</title>
 
   <!-- favicon -->
-  <link rel="icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+  <link rel="icon" type="image/x-icon" href="{{ asset('') }}assets/img/logo/favicon.png">
 
   <!-- css -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/all-fontawesome.min.css">
-  <link rel="stylesheet" href="assets/css/animate.min.css">
-  <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
-  <link rel="stylesheet" href="assets/css/nice-select.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/all-fontawesome.min.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/animate.min.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/magnific-popup.min.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/jquery-ui.min.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/nice-select.min.css">
+  <link rel="stylesheet" href="{{ asset('') }}assets/css/style.css">
 
 </head>
 
@@ -85,7 +85,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="footer-widget-box about-us">
               <a href="index.html" class="footer-logo">
-                <img src="assets/img/logo/logo-light.png" alt="">
+                <img src="{{ asset('') }}assets/img/logo/logo-light.png" alt="">
               </a>
               <p class="mb-3">
                 We are many variations of the passages available but the majoro have suffered alteration
@@ -169,11 +169,11 @@
               </div>
               <div class="footer-payment mt-20">
                 <span>We Accept:</span>
-                <img src="assets/img/payment/visa.svg" alt="">
-                <img src="assets/img/payment/mastercard.svg" alt="">
-                <img src="assets/img/payment/amex.svg" alt="">
-                <img src="assets/img/payment/discover.svg" alt="">
-                <img src="assets/img/payment/paypal.svg" alt="">
+                <img src="{{ asset('') }}assets/img/payment/visa.svg" alt="">
+                <img src="{{ asset('') }}assets/img/payment/mastercard.svg" alt="">
+                <img src="{{ asset('') }}assets/img/payment/amex.svg" alt="">
+                <img src="{{ asset('') }}assets/img/payment/discover.svg" alt="">
+                <img src="{{ asset('') }}assets/img/payment/paypal.svg" alt="">
               </div>
             </div>
           </div>
@@ -216,21 +216,21 @@
 
   <!-- js -->
   <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-  <script src="assets/js/jquery-3.7.1.min.js"></script>
-  <script src="assets/js/modernizr.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/isotope.pkgd.min.js"></script>
-  <script src="assets/js/jquery.appear.min.js"></script>
-  <script src="assets/js/jquery.easing.min.js"></script>
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <script src="assets/js/counter-up.js"></script>
-  <script src="assets/js/jquery-ui.min.js"></script>
-  <script src="assets/js/jquery.nice-select.min.js"></script>
-  <script src="assets/js/countdown.min.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/main.js"></script>
+  <script src="{{ asset('') }}assets/js/jquery-3.7.1.min.js"></script>
+  <script src="{{ asset('') }}assets/js/modernizr.min.js"></script>
+  <script src="{{ asset('') }}assets/js/bootstrap.bundle.min.js"></script>
+  <script src="{{ asset('') }}assets/js/imagesloaded.pkgd.min.js"></script>
+  <script src="{{ asset('') }}assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="{{ asset('') }}assets/js/isotope.pkgd.min.js"></script>
+  <script src="{{ asset('') }}assets/js/jquery.appear.min.js"></script>
+  <script src="{{ asset('') }}assets/js/jquery.easing.min.js"></script>
+  <script src="{{ asset('') }}assets/js/owl.carousel.min.js"></script>
+  <script src="{{ asset('') }}assets/js/counter-up.js"></script>
+  <script src="{{ asset('') }}assets/js/jquery-ui.min.js"></script>
+  <script src="{{ asset('') }}assets/js/jquery.nice-select.min.js"></script>
+  <script src="{{ asset('') }}assets/js/countdown.min.js"></script>
+  <script src="{{ asset('') }}assets/js/wow.min.js"></script>
+  <script src="{{ asset('') }}assets/js/main.js"></script>
 
 </body>
 

@@ -1,7 +1,7 @@
 <div class="sidebar">
   <div class="sidebar-top">
     <div class="sidebar-profile-img">
-      <img src="assets/img/account/03.jpg" alt="">
+      <img src="{{ asset('') }}assets/img/account/03.jpg" alt="">
       <button type="button" class="profile-img-btn"><i class="far fa-camera"></i></button>
       <input type="file" class="profile-img-file">
     </div>
